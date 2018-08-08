@@ -1,0 +1,365 @@
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
+
+body {
+  margin: 0;
+}
+
+.header {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: white;
+  background-color: #2B2F31;
+  padding: 9px;
+  padding-left: 20px;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+}
+
+.center_text {
+  display: inline-block;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  outline: 1px solid red;
+  height: 100vh;
+  top: 20px;
+  display: inline-block;
+}
+
+.logo img {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+    /* position: absolute;
+    top: 50px; */
+  width: 250px;
+}
+
+.nav {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  right: -35%;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nav a {
+  font-size: 12px;
+  margin-right: 100px;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  /* width: 100%;
+  margin: 0 auto;  */
+}
+
+.animationLine::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.animationLine:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+.footerText {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: white;
+  background-color: #2B2F31;
+  padding: 50px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  width: 100%;
+  position: absolute; 
+  bottom: -3500px;
+  left: 0;
+  margin-top: 0;
+  margin: 0;
+}
+
+.border1 {
+  padding: inherit;
+  margin: 5%;
+}
+
+.border2 {
+  display: inline;
+  font-family: 'Libre Baskerville';
+  text-align: center;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.form-group {
+  margin-left: 5%;
+  height: 90%; 
+  width: 90%;
+
+}
+.form-group:nth-child(1) {
+  margin-top: 30px;
+}
+
+.form-control {
+  border-radius: 0;
+  width: 450px;
+}
+
+label {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.btn {
+    color: #2B2F31;
+    background-color: #FCA2A0;
+    border: 3px solid #2B2F31;
+    padding: 10px 32px;
+    margin-left: 5%;
+    cursor: pointer;
+    border-radius: 0;
+    height: 90%; 
+    width: 90%;
+}
+
+.btn-primary {
+    color: #2B2F31;
+    opacity: .8;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2B2F31;
+  opacity: 1;
+  color: white;
+  border: 3px solid #2B2F31;
+}
+
+#countdown {
+  font-family: "Lato";
+  text-align: center;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 400%;
+}
+
+.sale {
+  display: inline-block;
+  margin: 5%;
+  text-align: center;
+  font-family: "Libre Baskerville";
+  align-items: stretch;
+}
+
+.flash {
+  height: 20%;
+  width: 20%;
+  padding: 1%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 3px 3px 7px #2B2F31;
+  -moz-box-shadow: 3px 3px 7px #2B2F31;
+  box-shadow: 3px 3px 7px #2B2F31;
+}
+
+.whole-review {
+  background: #FFCCCC;
+  display: inline-block;
+  margin: 5%;
+}
+
+.review {
+  display: inline-block;
+  margin: 5%;
+  text-align: center;
+  font-family: "Libre Baskerville";
+
+  height: 20%;
+  width: 20%;
+  padding: 1%;
+  background-color: #ffffff;
+}
+
+.profile {
+  top: 0;
+  display: inline-block;
+  margin: 5%;
+  text-align: center;
+  font-family: "Libre Baskerville";
+  height: 20%;
+  width: 20%;
+  padding: 1%;
+  background-color: #ffffff;
+}
+
+
+.btnbuy {
+    color: #ffffff;
+    background-color: #FCA2A0;
+    border: 3px solid #FCA2A0;
+    padding: 10px 32px;
+    margin-left: 5%;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.btn-buy {
+    color: #ffffff;
+    opacity: .8;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 5px;
+    cursor: pointer;
+}
+
+.btnbuy:hover {
+  background-color: #ffffff;
+  opacity: 1;
+  color: #FCA2A0;
+  border: 3px solid #FCA2A0;
+}
+
+.expand {
+  display: block;
+  align-items: center;
+  position: absolute;
+  right: 20%;
+  left: 45%;
+}
+
+.rating > span:hover:before {
+   content: "\2605";
+   color: #FCA2A0;
+   position: absolute;
+
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl; 
+  position: absolute;  
+  right: 39%;
+  font-size: 300%;
+    color: #FCA2A0;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+    color: #FCA2A0;
+   position: absolute;
+}
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+    cursor: pointer;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+    color: #FCA2A0;
+   position: absolute;
+}
+
+
+input:checked ~ label:before {
+  color: #FCA2A0;
+}
+ 
+label:hover ~ label:before {
+  color: #FCA2A0;
+}
+ 
+label:hover:before {
+  color: #FCA2A0;
+}
+
+
+
+.star-5 {
+  font-size: 200%;
+      content: "\2605";
+    color: #FCA2A0;
+}
+
+.pinkBox {
+  display: block;
+  width: 90%;
+  background-color: #FFCCCC;
+  padding: 4%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 0%;
+}
+
+#countdown {
+font-family: “Baskerville”;
+text-align: center;
+font-weight: 200;
+font-size: 75px;
+word-spacing: 30px;
+}
+
+.lineLogo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.opens img {
+  display: block;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+}
+
+

@@ -1,0 +1,313 @@
+body {
+  margin: 0;
+}
+
+.header {
+   display: block;
+   font-family: 'Lato', sans-serif;
+   font-size: 12px;
+   color: white;
+   background-color: #2B2F31;
+   padding: 9px;
+   padding-left: 20px;
+   font-style: italic;
+   letter-spacing: 1.5px;
+   width: 100%;
+   top: 0;
+   left: 0;
+   margin-top: 0;
+}
+
+.logo img {
+   display: block;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+    /* position: absolute;
+    top: 50px; */
+   width: 250px;
+}
+
+.nav {
+   display: inline-block;
+   /* position: absolute; */
+   padding-top: 35px;
+   text-align: center;
+   margin: 0 auto;
+   width: 100%;
+}
+
+.nav a {
+   font-size: 12px;
+   font-family: 'Lato', sans-serif;
+   text-decoration: none;
+   color: black;
+   letter-spacing: 1.5px;
+   display: inline-block;
+   padding: 0px 35px;
+   /* width: 100%;
+   margin: 0 auto;  */
+}
+
+.animationLine::after {
+   content: '';
+   display: block;
+   width: 0;
+   height: 2px;
+   background: #000;
+   transition: width .3s;
+}
+
+.animationLine:hover::after {
+   width: 100%;
+   //transition: width .3s;
+}
+
+.fullLine img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   width: 90%;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.pinkBox {
+   display: block;
+   width: 90%;
+   background-color: #FFCCCC;
+   padding: 4%;
+   margin: 0 auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   /* padding-bottom: 0%; */
+}
+
+.lineLogo img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+
+.opens img {
+   display: block;
+   width: 20%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1px;
+}
+
+#countdown {
+ font-family: "Baskerville";
+ text-align: center;
+ font-weight: 200;
+ font-size: 75px;
+ word-spacing: 30px;
+}
+
+.timer {
+   display: inline-block;
+   padding-top: 50px;
+   text-align: center;
+   margin: 0 auto;
+   width: 100%;
+}
+
+.container {
+   width: 100%;
+   text-align: center;
+   margin-bottom: 5px;
+}
+
+.containerStory1 {
+   display: inline-block;
+   margin-top: 30px;
+   width: 90%;
+   text-align: center;
+}
+
+.containerPics1 {
+  width: 40%;
+  text-align: center;
+  margin-left: 5%;
+  clear: both;
+  float: left;
+}
+
+.containerPara1 {
+   width: 50%;
+   text-align: center;
+   margin-right: 5%;
+}
+
+.containerStory2 {
+   display: inline-block;
+   margin-top: 50px;
+   margin-bottom: 35px;
+   width: 90%;
+   text-align: center;
+}
+
+.containerPics2 {
+   width: 40%;
+   text-align: center;
+   /* margin-left: 5%;
+   /* margin-right: 5%; */
+   /* padding-left: 5%; */ */
+   border: 1px solid blue;
+  float: right;
+  position: relative;
+  display: inline;
+
+}
+
+.containerPara2 {
+  display: inline-block;
+   width: 50%;
+   text-align: center;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-right: 5%;
+}
+
+.btn-primary {
+   color: #2B2F31;
+   background-color: #FFCCCC;
+   border: 1px solid #2B2F31;
+   opacity: .8;
+   width: 200px;
+   font-family: 'Baskerville', sans-serif;
+   font-weight: 200;
+   letter-spacing: 1.5px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 15px;
+   margin: 30px 5px;
+   cursor: pointer;
+   align-content: center;
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-top: 75px;
+}
+
+.btn:hover {
+  background-color: #F7F1E5;
+  opacity: 1;
+  color: #2B2F31;
+  border: 1px solid #2B2F31;
+}
+
+.storyImg img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5px;
+   margin-bottom: 25px;
+   width: 90%;
+   float: left;
+}
+
+.storyImg2 img {
+   display: block;
+   /* margin-left: auto; */
+   /* margin-right: auto; */
+   margin-top: 5px;
+   margin-bottom: 25px;
+   width: 80%;
+
+}
+
+.myStory1 {
+  display: inline-block;
+  font-family: 'Baskerville';
+  font-size: 20px;
+  color: #2B2F31;
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 60px;
+  width: 47%;
+  margin-left: 5%;
+  padding-left: 5%;
+  float: right;
+}
+
+.myStory2 {
+   display: block;
+   font-family: 'Baskerville';
+   font-size: 20px;
+   color: #2B2F31;
+   text-align: center;
+   letter-spacing: 1.5px;
+   line-height: 60px;
+   width: 100%;
+   margin-right: 5%;
+}
+
+.storyHead img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 70px;
+   margin-bottom: 10px;
+   width: 35%;
+}
+
+.contactLogo img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 90%;
+}
+
+.contactBlock {
+   display: inline-block;
+   /* position: absolute; */
+   padding-top: 35px;
+   text-align: center;
+   margin: 0 auto;
+   width: 100%;
+}
+
+.contactBlock a {
+   font-size: 15px;
+   font-family: 'Lato', sans-serif;
+   text-decoration: none;
+   color: black;
+   letter-spacing: 1.5px;
+   display: inline-block;
+   padding: 0px 80px;
+   padding-bottom: 80px;
+   /* width: 100%;
+   margin: 0 auto;  */
+}
+
+.footerText {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: white;
+  background-color: #2B2F31;
+  padding: 50px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  margin-top: 0;
+  margin: 0;
+}
